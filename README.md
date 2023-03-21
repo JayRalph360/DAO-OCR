@@ -1,7 +1,7 @@
 <h1 align="center">DAO OPTICAL CHARACTER RECOGNITION TOOL</h1>
 
 <p align="center">
-  <img width="400" height="400" src="https://cdn.investintech.com/wp-content/uploads/2021/06/OCR-Software.jpg">
+  <img src="https://cdn.investintech.com/wp-content/uploads/2021/06/OCR-Software.jpg">
 </p>
 
 
@@ -39,7 +39,6 @@ HTML Web App: http://daoapp.herokuapp.com
 - [How to run the Application](#how-to-run-the-application)
 - [Tests](#tests)
 - [Deployment](#deployment)
-- [References](#references)
 - [License](#license)
 - [TODO](#todo)
 
@@ -116,10 +115,6 @@ HTML Web App: http://daoapp.herokuapp.com
 >The proposed approach is to create a Flask web app that can accept image files, extract text using Tesseract OCR, and display the extracted text in a readable format. The user will be able to upload an image file to the web app, and the web app will process the image using Tesseract OCR. The extracted text will then be displayed on the web app, and the user will have the option to copy the extracted text file. To ensure accuracy, we will test the web app with various image file formats and compare the extracted text with the original text. 
 
 ![Untitled Diagram drawio](https://global-uploads.webflow.com/636bdbebfc681f083e923f81/63861e9b16b4921db3db628e_61e6e589f4ae7a513708b953_A%2520Quick%2520guide%2520into%2520Optical%2520character%2520recognition%2520%2526%2520its%2520software%2520Main%2520image-p-800.jpeg)
-
-<p align="left">
-  <img width="400" height="400" src="https://global-uploads.webflow.com/636bdbebfc681f083e923f81/63861e9b16b4921db3db628e_61e6e589f4ae7a513708b953_A%2520Quick%2520guide%2520into%2520Optical%2520character%2520recognition%2520%2526%2520its%2520software%2520Main%2520image-p-800.jpeg">
-</p>
 
 
 
