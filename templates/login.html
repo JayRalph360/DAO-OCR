@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="static/img/dao-nhead.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/vendorlog/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="static/fonts/font-awesome-4.7.0/css/font-awesome.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/vendorlog/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="static/vendorlog/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/vendorlog/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/vendorlog/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="static/vendorlog/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/css/util.css">
+	<link rel="stylesheet" type="text/css" href="static/css/main.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--===============================================================================================-->
+</head>
+<body style="background-color: #666666;">
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form" action="{{ url_for('login') }}" method="post">
+					<span class="login100-form-title p-b-43">
+						LOGIN TO CONTINUE
+					</span>
+					
+					
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100" type="text" name="username" pattern= "[a-zA-Z]+" required>
+						<span class="focus-input100"></span>
+						<span class="label-input100">USERNAME</span>
+					</div>
+					
+					
+					<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<input class="input100" type="password" name="psw"  minlength = "8" maxlength="15" required>
+						<span class="focus-input100"></span>
+						<span class="label-input100">PASSWORD</span>
+					</div>
+
+					<div class="flex-sb-m w-full p-t-3 p-b-32">
+						<div class="contact100-form-checkbox">
+							<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+							<label class="label-checkbox100" for="ckb1">
+								<a href="#" class="txt1">
+									Remember me
+								</a>
+							</label>
+						</div>
+
+						<div>
+							<a href="#" class="txt1">
+								Forgot Password?
+							</a>
+						</div>
+					</div>
+			
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn" type="submit" method="post">
+							LOGIN
+						</button>
+					</div>
+					
+					<div class="text-center p-t-46 p-b-20">
+						<a href="#">
+							OR CREATE AN ACCOUNT
+						</a>
+					</div>
+					<div class="login100-form-social flex-c-m">
+						<a href="{{url_for('signup')}}" class="login100-form-social-item flex-c-m bg2 m-r-5">
+							<i class="fa-solid fa-circle-user"></i>
+						</a>
+					</div>
+				</form>
+
+				<div class="login100-more" style="background-image: url('static/img/georgie.jpg');">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+
+	
+	
+<!--===============================================================================================-->
+	<script src="static/vendorlog/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="static/vendorlog/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="static/vendorlog/bootstrap/js/popper.js"></script>
+	<script src="static/vendorlog/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="static/vendorlog/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="static/vendorlog/daterangepicker/moment.min.js"></script>
+	<script src="static/vendorlog/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="static/vendorlog/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="static/js/logmain.js"></script>
+
+</body>
+</html>

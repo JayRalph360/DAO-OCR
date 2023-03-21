@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+}
+.hero {
+    height: 100%;
+    width: 45%;
+    background-image: url(css/images/17580.jpg);
+    margin: 0 auto;
+    position: relative;
+    background-size: cover;
+}
+
+.form-box {
+    width: 280px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+    padding: 35px;
+    overflow: hidden;
+}
+
+.button-box {
+    width: 220px;
+    height: 30px;
+    margin: 0px auto;
+    position: center;
+    position: relative;
+    box-shadow: 0 0 20px 9x red;
+    border-radius: 30px;
+}
+
+.btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn {
+    top: 0;
+    left: 10;
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.input-group {
+    top: 50;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field {
+    padding: 25px 0;
+    margin: 9px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.btn {
+    width: 75%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+#Login {
+    padding: 1rem 3rem;
+}
+
+#Signup {
+    padding: 1rem 3rem;
+}
+
+span {
+    color: #777;
+    font-size: 12px;
+    bottom: 680px;
+    position: absolute;
+}

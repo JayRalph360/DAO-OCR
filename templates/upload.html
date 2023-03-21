@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>WELCOME TO DAO-OCR</h1>
+      <h2>OPTICAL CHARACTER RECOGNITION TOOL</h2>
+      <!-- <a href="{{url_for('upload')}}" class="btn-get-started">Upload</a> -->
+      <div>
+        <h4>UPLOAD A TEXT IMAGE FILE</h4>
+        <form method=post enctype=multipart/form-data>
+          <p><input class="btn-get-started" type=file name=file>
+          <input class="btn-get-started" type=submit value=Upload>
+        </form>
+      </div>
+      <div>
+        {% if msg %}
+        <h2 class="btn-get-started">{{ msg }}</h2>
+        {% endif %}
+      </div>
+      <div><strong class="bi bi-arrow-down-circle" style="color: white;"></strong></div>
+    </div>
+    
+  </section><!-- End Hero Section -->
+  <div id="hero">
+    <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
+      <div class="transparent-box">
+        <h2>RESULT:</h2>
+        <div>
+          {% if extracted_text %}
+          <h2 class="btn-get-started"> The extracted text from the image is:</h2>
+          <img src="static/test-img/temp.png" type="image/png" style="border-radius: 5%;"/>
+          <div id="output"> <h2 style="font-size: small;">{{ extracted_text }}</h2></div>
+          <div>
+            {% else %}
+            <h3> The extracted text will be displayed here: </h3>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
