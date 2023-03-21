@@ -108,13 +108,16 @@ HTML Web App: http://daoapp.herokuapp.com
 └───__pycache__ 
 ```
 
+
+![Untitled Diagram drawio](https://global-uploads.webflow.com/636bdbebfc681f083e923f81/63861e9b16b4921db3db628e_61e6e589f4ae7a513708b953_A%2520Quick%2520guide%2520into%2520Optical%2520character%2520recognition%2520%2526%2520its%2520software%2520Main%2520image-p-800.jpeg)
+
+
 ## Problem Statement
 >In today's world, we are flooded with a vast amount of data in different forms such as images, PDFs, and scanned documents. Extracting text data from these sources can be a tedious and time-consuming task. It is essential to convert these data sources into a digital format that can be easily processed and analyzed. Manually transcribing text from images is not only time-consuming but also prone to errors, making the process unreliable. This is where Optical Character Recognition (OCR) comes into play. The goal of this project is to create a Flask web app that can integrate Tesseract OCR to extract text from image files accurately.
 
 ## Proposed Approach
 >The proposed approach is to create a Flask web app that can accept image files, extract text using Tesseract OCR, and display the extracted text in a readable format. The user will be able to upload an image file to the web app, and the web app will process the image using Tesseract OCR. The extracted text will then be displayed on the web app, and the user will have the option to copy the extracted text file. To ensure accuracy, we will test the web app with various image file formats and compare the extracted text with the original text. 
 
-![Untitled Diagram drawio](https://global-uploads.webflow.com/636bdbebfc681f083e923f81/63861e9b16b4921db3db628e_61e6e589f4ae7a513708b953_A%2520Quick%2520guide%2520into%2520Optical%2520character%2520recognition%2520%2526%2520its%2520software%2520Main%2520image-p-800.jpeg)
 
 
 
