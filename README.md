@@ -10,7 +10,6 @@
 [![HTML](https://img.shields.io/badge/HTML-black.svg?style=flat&logo=html5&logoColor=white)](https://html.com/)
 [![CSS](https://img.shields.io/badge/CSS-yellow.svg?style=flat&logo=css3&logoColor=white)](https://www.w3.org/TR/CSS/#css)
 [![Javascript](https://img.shields.io/badge/Javascript-yellow.svg?style=flat&logo=javascript&logoColor=white)](https://www.javascript.com/)
-[![Framework](https://img.shields.io/badge/Keras-darkred.svg?style=flat&logo=keras&logoColor=white)](http://www.Keras.org/news.html)
 ![hosted](https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white)
 ![hosted](https://img.shields.io/badge/Railway-430098?style=flat&logo=railway&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-blue?style=flat&logo=docker&logoColor=white)
@@ -39,6 +38,7 @@ HTML Web App: http://daoapp.herokuapp.com
 - [Tools Used :wrench:](#tools-used-wrench)
 - [Project Proposal Demo](#project-proposal-demo)
 - [HTML Web App Demo](#html-web-app-demo)
+- [OCR In Action](#ocr-in-action)
 - [How to run the Application](#how-to-run-the-application)
 - [Tests](#tests)
 - [Deployment](#deployment)
@@ -142,11 +142,11 @@ https://user-images.githubusercontent.com/84851293/227244865-c4105cbd-fc6b-4d7b-
 
 
 ## HTML Web App Demo
-https://user-images.githubusercontent.com/101701760/184884513-66d5cd1e-9a0f-44ce-86dc-abfc8d70bc70.gif
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/101701760/184884513-66d5cd1e-9a0f-44ce-86dc-abfc8d70bc70.gif)
+
 
 ## OCR In Action
-https://user-images.githubusercontent.com/101701760/186735810-2a1f93d6-9b41-45e5-8a33-57dc09ca3ffd.gif
-
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/101701760/186735810-2a1f93d6-9b41-45e5-8a33-57dc09ca3ffd.gif)
 
 ## How to run the Application
 <details> 
