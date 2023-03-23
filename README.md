@@ -34,6 +34,7 @@ HTML Web App: http://daoapp.herokuapp.com
 - [Repository File Structure](#repository-file-structure)
 - [Problem Statement](#problem-statement)
 - [Proposed Approach](#proposed-approach)
+- [Tools Used :wrench:](#tools-used-wrench)
 - [API Demo](#api-demo)
 - [HTML Web App Demo](#html-web-app-demo)
 - [How to run the Application](#how-to-run-the-application)
@@ -103,7 +104,7 @@ HTML Web App: http://daoapp.herokuapp.com
 │   ├───Include
 │   ├───Lib
 │   │   └───site-packages
-│   │       ├───click
+│   │       ├─── #Files and Folders
 │   └───Scripts
 └───__pycache__ 
 ```
@@ -118,6 +119,19 @@ HTML Web App: http://daoapp.herokuapp.com
 ## Proposed Approach
 >The proposed approach is to create a Flask web app that can accept image files, extract text using Tesseract OCR, and display the extracted text in a readable format. The user will be able to upload an image file to the web app, and the web app will process the image using Tesseract OCR. The extracted text will then be displayed on the web app, and the user will have the option to copy the extracted text file. To ensure accuracy, we will test the web app with various image file formats and compare the extracted text with the original text. 
 
+
+
+## Tools Used :wrench:
+- Python
+- Flask
+- Flask-Scss
+- HTML
+- CSS
+- Javascript
+- Tesseract-OCR
+- Pytesseract
+- Rails
+- Docker
 
 
 
