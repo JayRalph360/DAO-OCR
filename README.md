@@ -6,13 +6,15 @@
 
 
 [![Language](https://img.shields.io/badge/Python-darkblue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
-[![HTML](https://img.shields.io/badge/HTML-black.svg?style=flat&logo=html5&logoColor=white)](http://avnprapp.herokuapp.com)
-[![CSS](https://img.shields.io/badge/CSS-yellow.svg?style=flat&logo=css3&logoColor=white)](http://avnprapp.herokuapp.com)
+[![Framework](https://img.shields.io/badge/Flask-darkgreen.svg?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/en/2.2.x/)
+[![HTML](https://img.shields.io/badge/HTML-black.svg?style=flat&logo=html5&logoColor=white)](https://html.com/)
+[![CSS](https://img.shields.io/badge/CSS-yellow.svg?style=flat&logo=css3&logoColor=white)](https://www.w3.org/TR/CSS/#css)
+[![Javascript](https://img.shields.io/badge/Javascript-yellow.svg?style=flat&logo=javascript&logoColor=white)](https://www.javascript.com/)
 [![Framework](https://img.shields.io/badge/Keras-darkred.svg?style=flat&logo=keras&logoColor=white)](http://www.Keras.org/news.html)
-[![Framework](https://img.shields.io/badge/FastAPI-darkgreen.svg?style=flat&logo=fastapi&logoColor=white)](https://https://github.com/Nneji123/Automatic-License-Plate-Detection-Recognition-API-api.herokuapp.com/docs)
 ![hosted](https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white)
+![hosted](https://img.shields.io/badge/Railway-430098?style=flat&logo=railway&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-blue?style=flat&logo=docker&logoColor=white)
-[![Gitpod](https://img.shields.io/badge/Gitpod-orange?style=flat&logo=gitpod&logoColor=white)](https://gitpod.io/#https://github.com/Nneji123/https://github.com/Nneji123/Automatic-License-Plate-Detection-Recognition-API)
+[![Gitpod](https://img.shields.io/badge/Gitpod-orange?style=flat&logo=gitpod&logoColor=white)](https://www.gitpod.io/)
 ![reposize](https://img.shields.io/github/repo-size/Nneji123/Automatic-License-Plate-Detection-Recognition-API)
 
 
@@ -25,7 +27,7 @@ HTML Web App: http://daoapp.herokuapp.com
 ## Contributors
 - **[OKAI RAPHAEL](https://github.com/JayRalph360)**
 - **[ABOAGYE SETH](https://github.com/KSetho)**
-- **[DANSO DANIEL](https://github.com/)**
+- **[DANSO DANIEL](https://github.com/DanielDanso)**
 
 
 ## Table of Contents
@@ -35,7 +37,7 @@ HTML Web App: http://daoapp.herokuapp.com
 - [Problem Statement](#problem-statement)
 - [Proposed Approach](#proposed-approach)
 - [Tools Used :wrench:](#tools-used-wrench)
-- [API Demo](#api-demo)
+- [Project Proposal Demo](#project-proposal-demo)
 - [HTML Web App Demo](#html-web-app-demo)
 - [How to run the Application](#how-to-run-the-application)
 - [Tests](#tests)
@@ -135,15 +137,15 @@ HTML Web App: http://daoapp.herokuapp.com
 
 
 
-## API Demo
-![ezgif com-gif-maker2](https://user-images.githubusercontent.com/101701760/184884561-7faffb87-71a1-41e5-92fd-97860ea61507.gif)
+## Project Proposal Demo
+https://user-images.githubusercontent.com/84851293/227244865-c4105cbd-fc6b-4d7b-a7f7-f6fe8d82e6e5.mp4
 
 
 ## HTML Web App Demo
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/101701760/184884513-66d5cd1e-9a0f-44ce-86dc-abfc8d70bc70.gif)
+https://user-images.githubusercontent.com/101701760/184884513-66d5cd1e-9a0f-44ce-86dc-abfc8d70bc70.gif
 
-## Inference on Video Demo
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/101701760/186735810-2a1f93d6-9b41-45e5-8a33-57dc09ca3ffd.gif)
+## OCR In Action
+https://user-images.githubusercontent.com/101701760/186735810-2a1f93d6-9b41-45e5-8a33-57dc09ca3ffd.gif
 
 
 ## How to run the Application
@@ -203,12 +205,12 @@ cd .. && cd tests && pytest
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Nneji123/Automatic-License-Plate-Detection-Recognition-API.git
+git clone https://github.com/JayRalph360/DAO-OCR.git
 ```
 
 2. Change the directory:
 ```
-cd Automatic-License-Plate-Detection-Recognition-API
+cd DAO
 ```
 
 3. Login to Heroku
