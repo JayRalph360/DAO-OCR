@@ -54,6 +54,7 @@ h6 {
   padding: 2%;
   padding-top: 2%;
   padding-bottom: 2%;
+  overflow: auto;
 }
 
 /*--------------------------------------------------------------
