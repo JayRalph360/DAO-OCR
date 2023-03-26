@@ -170,9 +170,42 @@ pip install -r requirements.txt
 
 4. Run the application
 ```
-uvicorn app:app --reload --port 8000
+python -m flask run
 ```
-**You should be able to view the application by going to http://127.0.0.1:8000/**
+**You should be able to view the application by going to http://127.0.0.1:5000/**
+</details>
+
+
+<details> 
+  <summary><b>Running on Local Machine with Docker Compose</b></summary>
+
+**You can also run the application in a docker container using docker compose(if you have it installed)**
+
+1. Clone the repository:
+```bash
+git clone https://github.com/JayRalph360/DAO-OCR.git
+```
+
+2. Change the directory:
+```
+cd DAO-OCR
+```
+
+3. Run the docker compose command
+```docker
+docker compose up -d --build 
+```
+You should be able to view the application by going to http://localhost:5000/
+</details>
+
+
+<details> 
+  <summary><b>Running in a Gitpod Cloud Environment</b></summary>
+
+
+**Click the button below to start a new development environment:**
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/JayRalph360/DAO-OCR.git)
 </details>
 
 
