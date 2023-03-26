@@ -1,0 +1,11 @@
+# Commands to start on workspace startup
+tasks:
+  - init: |
+      pip install flask pytesseract pillow flask_scss
+      python app.py
+  - command: |
+      docker-compose up -d --build
+# Ports to expose on workspace startup
+ports:
+  - port: 5000
+    onOpen: open-browser
