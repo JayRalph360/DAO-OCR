@@ -1,9 +1,0 @@
-services:
-  app:
-    build: .
-    container_name: dao-ocr
-    command: python app.py
-    ports:
-      - 5000:5000
-    volumes:
-      - .:/app
