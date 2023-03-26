@@ -20,7 +20,7 @@
 ## About
 >A Flask web app that integrates Tesseract OCR to extract text from image files. 
 
-HTML Web App: http://daoapp.herokuapp.com
+Web App: https://dao-ocr-production.up.railway.app/
 
 
 ## Contributors
