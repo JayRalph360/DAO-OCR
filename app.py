@@ -90,4 +90,5 @@ def upload():
 		return render_template('upload.html')
 		
 if __name__ == "__main__":
-	app.run(host='0.0.0.0', port=os.environ.get('PORT', 5000))
+	os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))
