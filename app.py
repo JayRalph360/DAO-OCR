@@ -29,17 +29,14 @@ def ocr_core(file):
     text = pytesseract.image_to_string(image)
     # Get the current size of the image
     width, height = image.size
-    
-    # Reduce the size of the image to half
-	new_size = (int(width/2), int(height/2))
-    
-	# Resize the image
-	image = image.resize(new_size)
-	# Save the image
-	image.save('static/test-img/temp.png')
+    # Resize the image
+    new_size = (int(width/2), int(height/2))
+    image = image.resize(new_size)
+    # Save the image
+    image.save('static/test-img/temp.png')
     # Return extracted text
-	return text
-
+    return text
+	
 
 # route and function to handle the home page
 @app.route("/", methods=['GET', 'POST'])
