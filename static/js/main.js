@@ -235,3 +235,23 @@
 document.querySelector('.img__btn').addEventListener('click', function() {
   document.querySelector('.cont').classList.toggle('s--signup');
 });
+
+function copyText() {
+  // Get the text to copy
+  const textToCopy = document.getElementById("myText").innerText;
+
+  // Create a temporary textarea to hold the text
+  const tempTextArea = document.createElement("textarea");
+  tempTextArea.value = textToCopy;
+  document.body.appendChild(tempTextArea);
+
+  // Copy the text
+  tempTextArea.select();
+  document.execCommand("copy");
+
+  // Remove the temporary textarea
+  document.body.removeChild(tempTextArea);
+
+  // Show a confirmation message
+  alert("Text copied to clipboard!");
+}
