@@ -486,6 +486,20 @@ h6 {
   color: #fff;
 }
 
+#hero .btn-get-started-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
 #hero .btn-get-started:hover {
   background: #2dc997;
   border: 2px solid #2dc997;
