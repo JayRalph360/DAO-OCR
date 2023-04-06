@@ -27,16 +27,21 @@ def ocr_core(file):
     image = Image.open(file)
     # Perform OCR using pytesseract
     text = pytesseract.image_to_string(image)
-    # Resize the image
-    new_size = (380, 240)
-    image = image.resize(new_size)
-    # Save the image
-    image.save('static/test-img/temp.png')
+    # Get the current size of the image
+    width, height = image.size
+    
+    # Reduce the size of the image to half
+	new_size = (int(width/2), int(height/2))
+    
+	# Resize the image
+	image = image.resize(new_size)
+	# Save the image
+	image.save('static/test-img/temp.png')
     # Return extracted text
-    return text
+	return text
+
 
 # route and function to handle the home page
-
 @app.route("/", methods=['GET', 'POST'])
 def login():
 	if request.method == 'POST':
