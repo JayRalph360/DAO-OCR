@@ -30,8 +30,8 @@
         <div>
           {% if extracted_text %}
           <h2 class="btn-get-started"> The extracted text from the image is:</h2>
-          <img src="static/test-img/temp.png" type="image/png" style="border-radius: 1%;"/>
-          <div id="output" class="btn-get-started" style="font-size: small; overflow: auto;"> <h2>{{ extracted_text }}</h2></div>
+          <img src="static/test-img/temp.png" type="image/png" style="border-radius: 2%;"/>
+          <div id="output" class="btn-get-started" style="overflow: auto;"> <h2 style="font-size: small;">{{ extracted_text }}</h2></div>
           <div>
             {% else %}
             <h3> The extracted text will be displayed here: </h3>
