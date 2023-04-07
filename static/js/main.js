@@ -243,7 +243,7 @@ function myFunction() {
   navigator.clipboard.writeText(copyText.value);
   
   var tooltip = document.getElementById("myTooltip");
-  tooltip.innerHTML = "Copied: " + copyText.value;
+  tooltip.innerHTML = "Copied: ";
 }
 
 function outFunc() {
