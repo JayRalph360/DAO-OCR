@@ -23,7 +23,7 @@
 Web App: https://dao-ocr-production.up.railway.app/
 Hashnode Article: https://jayralph.hashnode.dev/dao-optical-character-recognition-tool-flask-web-app-with-tesseract-ocr-integration
 Medium Article: https://medium.com/@jayralph360/dao-optical-character-recognition-tool-a-flask-web-app-for-accurate-text-extraction-from-image-13cbe06dd8aa
-Presentation Slide: 
+Presentation Slide: https://drive.google.com/file/d/158DYPj-OHhpYpOAnOa_LQt0Q8QqYocMt/view?usp=share_link
 
 ## Contributors
 - **[OKAI RAPHAEL](https://github.com/JayRalph360)**
