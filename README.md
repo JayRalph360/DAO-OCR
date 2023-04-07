@@ -281,16 +281,8 @@ Click the button below to deploy the application.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-
 </details>
 
-
-<details> 
-  <summary><b>Deploying the Application with AWS Lightsail</b></summary>
-
-To deploy the application using aws Lightsail just watch the video below and follow the steps.
-
-</details>
 
 <details>
     <summary><b>Deploy the Application to Railway<b></summary>
