@@ -32,6 +32,12 @@
           <h2 class="btn-get-started"> The extracted text from the image is:</h2>
           <img src="static/test-img/temp.png" type="image/png" style="border-radius: 2%;"/>
           <div id="output" class="btn-get-started" style="overflow: auto;"> <h2 style="font-size: small;">{{ extracted_text }}</h2></div>
+          <div class="btn-get-started">
+            <button onclick="myFunction()" onmouseout="outFunc()">
+              <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+              Copy text
+              </button>
+            </div>
           <div>
             {% else %}
             <h3> The extracted text will be displayed here: </h3>
