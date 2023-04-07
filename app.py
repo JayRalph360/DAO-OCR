@@ -30,7 +30,7 @@ def ocr_core(file):
     # Get the current size of the image
     width, height = image.size
     # Resize the image
-    new_size = (int(width/5), int(height/5))
+    new_size = (int(width/3), int(height/3))
     image = image.resize(new_size)
     # Save the image
     image.save('static/test-img/temp.png')

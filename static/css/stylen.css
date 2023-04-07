@@ -31,6 +31,7 @@ a:focus {
 p {
   padding: 0;
   margin: 0 0 30px 0;
+  color: white;
 }
 
 h1,
@@ -488,22 +489,6 @@ h6 {
   background: #2dc997;
   border: 2px solid #2dc997;
 }
-
-#hero .btn-get-started-text {
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 28px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
 
 /*--------------------------------------------------------------
 # Sections
