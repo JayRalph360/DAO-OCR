@@ -2,9 +2,8 @@
 <html lang="en">
 
 <head>
-  {% block title %}
-    <title>{{ title }}</title>
-  {% endblock %}
+  <title>{% block title %} {% endblock %}</title>
+  
   <link rel="stylesheet" href="{{url_for('static',filename='css/login-1.css')}}">
   <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
 
