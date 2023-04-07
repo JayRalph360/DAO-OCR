@@ -503,6 +503,11 @@ h6 {
   color: #fff;
 }
 
+#hero .btn-get-started-text:hover {
+  background: #2dc997;
+  border: 2px solid #2dc997;
+}
+
 .tooltip {
   position: relative;
   display: inline-block;

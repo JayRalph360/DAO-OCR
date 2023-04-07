@@ -236,17 +236,12 @@ document.querySelector('.img__btn').addEventListener('click', function() {
   document.querySelector('.cont').classList.toggle('s--signup');
 });
 
-function myFunction() {
-  var copyText = document.getElementById("myInput");
+function copyToClipboard() {
+  var copyText = document.createElement("textarea");
+  copyText.value = "This is the text to copy.";
+  document.body.appendChild(copyText);
   copyText.select();
-  copyText.setSelectionRange(0, 99999);
-  navigator.clipboard.writeText(copyText.value);
-  
-  var tooltip = document.getElementById("myTooltip");
-  tooltip.innerHTML = "Copied: ";
-}
-
-function outFunc() {
-  var tooltip = document.getElementById("myTooltip");
-  tooltip.innerHTML = "Copy to clipboard";
+  document.execCommand("copy");
+  document.body.removeChild(copyText);
+  alert("Text copied to clipboard.");
 }
