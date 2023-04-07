@@ -238,7 +238,7 @@ document.querySelector('.img__btn').addEventListener('click', function() {
 
 function copyToClipboard() {
   var copyText = document.createElement("textarea");
-  copyText.value = "This is the text to copy.";
+  copyText.value = document.getElementById("myText").innerText;
   document.body.appendChild(copyText);
   copyText.select();
   document.execCommand("copy");
