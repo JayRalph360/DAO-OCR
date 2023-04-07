@@ -2,17 +2,15 @@
 <html lang="en">
 
 <head>
+  {% block title %}
   <title>DAO-OCR</title>
+  {% endblock %}
   <link rel="stylesheet" href="{{url_for('static',filename='css/login-1.css')}}">
   <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
 
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  {% block title %}
-  <title>DAO-OCR</title>
-  {% endblock %}
-  <meta charset="UTF-8">
 
   <meta name="description" content="A Flask web app that integrates Tesseract 
   OCR to extract text from image files.">
