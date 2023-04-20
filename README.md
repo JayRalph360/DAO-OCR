@@ -28,7 +28,7 @@
 
 [Presentation Slide](https://drive.google.com/file/d/158DYPj-OHhpYpOAnOa_LQt0Q8QqYocMt/view?usp=share_link)
 
-[YouTube Video](https://www.youtube.com/watch?v=mGFyvvT9jpE)
+[YouTube Demo](https://www.youtube.com/watch?v=mGFyvvT9jpE)
 
 
 ## Contributors
