@@ -28,6 +28,8 @@
 
 [Presentation Slide](https://drive.google.com/file/d/158DYPj-OHhpYpOAnOa_LQt0Q8QqYocMt/view?usp=share_link)
 
+[YouTube Video](https://www.youtube.com/watch?v=mGFyvvT9jpE)
+
 
 ## Contributors
 - **[OKAI RAPHAEL](https://github.com/JayRalph360)**
@@ -147,9 +149,8 @@
 https://user-images.githubusercontent.com/84851293/227244865-c4105cbd-fc6b-4d7b-a7f7-f6fe8d82e6e5.mp4
 
 
-## HTML Web App Demo
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/101701760/184884513-66d5cd1e-9a0f-44ce-86dc-abfc8d70bc70.gif)
-
+## Web App Demo
+https://user-images.githubusercontent.com/84851293/233355799-b4a7fbfc-8be8-4d0a-8de6-7000607439ae.mp4
 
 ## OCR In Action
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/101701760/186735810-2a1f93d6-9b41-45e5-8a33-57dc09ca3ffd.gif)
@@ -219,7 +220,7 @@ You should be able to view the application by going to http://localhost:5000/
 <details> 
   <summary><b>Test HTML Web App Functions</b></summary>
 
-To test the HTML Web app do the following:
+To test the Flask Web app do the following:
 1. Clone the repository:
 ```
 git clone https://github.com/JayRalph360/DAO-OCR.git
