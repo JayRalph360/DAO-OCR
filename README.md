@@ -218,7 +218,7 @@ You should be able to view the application by going to http://localhost:5000/
 
 ## Tests
 <details> 
-  <summary><b>Test HTML Web App Functions</b></summary>
+  <summary><b>Test Flask Web App Functions</b></summary>
 
 To test the Flask Web app do the following:
 1. Clone the repository:
