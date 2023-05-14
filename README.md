@@ -18,7 +18,7 @@
 
 
 ## About
->A Flask web app that integrates Tesseract OCR to extract text from image files. 
+>A Flask web app that integrates Tesseract OCR to extract text from image files.. 
 
 [Flask Web App](https://dao-ocr-production.up.railway.app/)
 
